@@ -2,7 +2,7 @@
  class Handler {
 
  	private $connection;
-	private $dsn = 'mysql:dbname=db_blog;host=localhost';
+	private $dsn = 'mysql:dbname=db_blog;host=localhost;charset=utf8';
 	private $user = 'root';
 	private $password = '';
 	private $options = array (
